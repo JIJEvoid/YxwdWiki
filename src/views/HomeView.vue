@@ -88,29 +88,29 @@ export default defineComponent({
 
 <style scoped>
 .home-view {
-  padding: 0.16rem 0; /* 16px */
+  padding: 16px 0;
 }
 
 .welcome-section {
   text-align: center;
-  margin-bottom: 0.3rem; /* 30px */
+  margin-bottom: 30px;
 }
 
 .subtitle {
   color: color-mix(in srgb, var(--text-color) 80%, transparent);
-  font-size: 0.18rem; /* 18px */
+  font-size: 18px;
 }
 
 .categories-section,
 .recent-articles-section {
-  margin-bottom: 0.3rem; /* 30px */
+  margin-bottom: 30px;
 }
 
 .categories-section h2,
 .recent-articles-section h2 {
-  margin-bottom: 0.16rem; /* 16px */
+  margin-bottom: 16px;
   position: relative;
-  padding-left: 0.12rem; /* 12px */
+  padding-left: 12px;
 }
 
 .categories-section h2::before,
@@ -120,57 +120,57 @@ export default defineComponent({
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 0.04rem; /* 4px */
-  height: 0.2rem; /* 20px */
+  width: 4px;
+  height: 20px;
   background-color: var(--primary-color);
-  border-radius: 0.02rem; /* 2px */
+  border-radius: 2px;
 }
 
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr)); /* 300px */
-  gap: 0.16rem; /* 16px */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
 }
 
 .category-card {
   background-color: var(--card-bg);
-  border-radius: 0.08rem; /* 8px */
-  padding: 0.16rem; /* 16px */
+  border-radius: 8px;
+  padding: 16px;
   text-decoration: none;
   color: var(--text-color);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .category-card:hover {
-  transform: translateY(-0.04rem); /* -4px */
-  box-shadow: 0 0.04rem 0.08rem rgba(0, 0, 0, 0.1); /* 4px 8px */
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .category-card h3 {
   color: var(--primary-color);
   margin-top: 0;
-  margin-bottom: 0.08rem; /* 8px */
+  margin-bottom: 8px;
 }
 
 .category-card p {
   margin: 0;
-  font-size: 0.14rem; /* 14px */
+  font-size: 14px;
   color: color-mix(in srgb, var(--text-color) 80%, transparent);
 }
 
 .articles-list {
   display: flex;
   flex-direction: column;
-  gap: 0.12rem; /* 12px */
+  gap: 12px;
 }
 
 .article-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.12rem 0.16rem; /* 12px 16px */
+  padding: 12px 16px;
   background-color: var(--card-bg);
-  border-radius: 0.08rem; /* 8px */
+  border-radius: 8px;
   text-decoration: none;
   color: var(--text-color);
   transition: background-color 0.2s;
@@ -185,7 +185,7 @@ export default defineComponent({
 }
 
 .article-date {
-  font-size: 0.12rem; /* 12px */
+  font-size: 12px;
   color: color-mix(in srgb, var(--text-color) 70%, transparent);
 }
 

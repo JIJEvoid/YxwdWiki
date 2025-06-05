@@ -1,7 +1,7 @@
 /* Tailwind CSS imports */
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /* Light theme variables */
@@ -34,19 +34,20 @@ html, body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
 }
 
 /* Mobile-first approach */
 .container {
   width: 100%;
-  padding: 0 0.16rem; /* 16px / 100 */
+  padding: 0 16px;
   box-sizing: border-box;
 }
 
 /* Desktop styles */
 @media (min-width: 750px) {
   .container {
-    max-width: 7.5rem; /* 750px / 100 */
+    max-width: 750px;
     margin: 0 auto;
   }
 }
@@ -67,24 +68,24 @@ html, body {
 
 /* Typography */
 h1 {
-  font-size: 0.32rem; /* 32px / 100 */
-  margin: 0.24rem 0; /* 24px / 100 */
+  font-size: 32px;
+  margin: 24px 0;
 }
 
 h2 {
-  font-size: 0.28rem; /* 28px / 100 */
-  margin: 0.2rem 0; /* 20px / 100 */
+  font-size: 28px;
+  margin: 20px 0;
 }
 
 h3 {
-  font-size: 0.24rem; /* 24px / 100 */
-  margin: 0.16rem 0; /* 16px / 100 */
+  font-size: 24px;
+  margin: 16px 0;
 }
 
 p {
-  font-size: 0.16rem; /* 16px / 100 */
+  font-size: 16px;
   line-height: 1.5;
-  margin: 0.16rem 0; /* 16px / 100 */
+  margin: 16px 0;
 }
 
 /* Links */
@@ -101,9 +102,9 @@ a:hover {
 /* Buttons */
 .btn {
   display: inline-block;
-  padding: 0.1rem 0.2rem; /* 10px 20px / 100 */
-  border-radius: 0.04rem; /* 4px / 100 */
-  font-size: 0.16rem; /* 16px / 100 */
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
   cursor: pointer;

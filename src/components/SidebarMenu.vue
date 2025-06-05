@@ -141,12 +141,12 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.16rem; /* 16px */
+  padding: 16px;
   border-bottom: 1px solid var(--border-color);
 }
 
 .logo {
-  font-size: 0.2rem; /* 20px */
+  font-size: 20px;
   font-weight: bold;
   color: var(--primary-color);
 }
@@ -158,12 +158,12 @@ export default defineComponent({
 .sidebar-content {
   flex: 1;
   overflow-y: auto;
-  padding: 0.16rem; /* 16px */
+  padding: 16px;
 }
 
 .user-info {
-  margin-bottom: 0.2rem; /* 20px */
-  padding-bottom: 0.16rem; /* 16px */
+  margin-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -174,16 +174,16 @@ export default defineComponent({
 }
 
 .menu-title {
-  font-size: 0.16rem; /* 16px */
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 0.12rem; /* 12px */
+  margin-bottom: 12px;
   color: var(--text-color);
 }
 
 .menu-items {
   display: flex;
   flex-direction: column;
-  gap: 0.08rem; /* 8px */
+  gap: 8px;
 }
 
 .menu-item {
@@ -193,11 +193,11 @@ export default defineComponent({
 
 .menu-link {
   display: block;
-  padding: 0.1rem 0; /* 10px */
+  padding: 10px 0;
   color: var(--text-color);
   text-decoration: none;
-  font-size: 0.16rem; /* 16px */
-  border-radius: 0.04rem; /* 4px */
+  font-size: 16px;
+  border-radius: 4px;
   transition: background-color 0.2s;
 }
 
@@ -211,19 +211,19 @@ export default defineComponent({
 }
 
 .submenu {
-  margin-left: 0.16rem; /* 16px */
+  margin-left: 16px;
   display: flex;
   flex-direction: column;
-  gap: 0.04rem; /* 4px */
+  gap: 4px;
 }
 
 .submenu-link {
   display: block;
-  padding: 0.08rem 0.12rem; /* 8px 12px */
+  padding: 8px 12px;
   color: var(--text-color);
   text-decoration: none;
-  font-size: 0.14rem; /* 14px */
-  border-radius: 0.04rem; /* 4px */
+  font-size: 14px;
+  border-radius: 4px;
   transition: background-color 0.2s;
 }
 
@@ -233,14 +233,14 @@ export default defineComponent({
 }
 
 .sidebar-footer {
-  padding: 0.16rem; /* 16px */
+  padding: 16px;
   border-top: 1px solid var(--border-color);
 }
 
 .settings-link {
   display: flex;
   align-items: center;
-  gap: 0.08rem; /* 8px */
+  gap: 8px;
   color: var(--text-color);
   text-decoration: none;
 }

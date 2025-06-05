@@ -155,8 +155,8 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 0.5rem; /* 50px */
-  padding: 0 0.16rem; /* 16px */
+  height: 50px;
+  padding: 0 16px;
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
   position: sticky;
@@ -165,7 +165,7 @@ export default defineComponent({
 }
 
 .header-title {
-  font-size: 0.18rem; /* 18px */
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -182,20 +182,20 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 0.6rem; /* 60px */
-  padding: 0 0.2rem; /* 20px */
+  height: 60px;
+  padding: 0 20px;
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 10;
   width: 100%;
-  max-width: 7.5rem; /* 750px */
+  max-width: 750px;
   margin: 0 auto;
 }
 
 .header-logo {
-  font-size: 0.24rem; /* 24px */
+  font-size: 24px;
   font-weight: bold;
   color: var(--primary-color);
 }
@@ -203,7 +203,7 @@ export default defineComponent({
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 0.2rem; /* 20px */
+  gap: 20px;
 }
 
 .setting-icon {
@@ -213,30 +213,30 @@ export default defineComponent({
 /* 内容区样式 */
 .main-content {
   flex: 1;
-  padding: 0.16rem; /* 16px */
+  padding: 16px;
   overflow-y: auto;
 }
 
 .main-content.desktop {
-  padding: 0.2rem; /* 20px */
+  padding: 20px;
 }
 
 .content-container {
   display: flex;
-  max-width: 7.5rem; /* 750px */
+  max-width: 750px;
   margin: 0 auto;
   height: 100%;
 }
 
 .desktop-sidebar {
-  width: 2rem; /* 200px */
-  padding-right: 0.2rem; /* 20px */
+  width: 200px;
+  padding-right: 20px;
   border-right: 1px solid var(--border-color);
   height: 100%;
 }
 
 .page-content {
   flex: 1;
-  padding: 0 0.2rem; /* 20px */
+  padding: 0 20px;
 }
 </style>
